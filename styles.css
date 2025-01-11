@@ -1,0 +1,86 @@
+/* Reset Styles */
+body, h1, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* General Styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  section {
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  #home {
+    background-color: #f4f4f4;
+  }
+  #about {
+    background-color: #e8e8e8;
+  }
+  #services {
+    background-color: #dcdcdc;
+  }
+  #projects {
+    background-color: #cfcfcf;
+  }
+  #contact {
+    background-color: #bfbfbf;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navbar .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .navbar .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .navbar .nav-links a:hover {
+    color: #00aaff;
+  }
+  
+  /* To prevent content from hiding under the fixed navbar */
+  body {
+    padding-top: 60px;
+  }
+  
